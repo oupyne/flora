@@ -1,0 +1,30 @@
+/* Estilo  CUADRADO para la lista del menú */
+.menu {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se muestren en línea */
+}
+
+/* Estilo para los elementos de la lista */
+.menu li {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+    text-align: center;
+}
+
+/* Estilo para los enlaces */
+.menu a {
+    text-decoration: none; /* Quita la decoración de enlace (subrayado) */
+    color: #333; /* Color del texto para enlaces no visitados */
+    padding: 10px; /* Añade espaciado alrededor del enlace para hacerlo cuadrado */
+    display: inline-block; /* Hace que los enlaces se comporten como bloques cuadrados */
+    border: 1px solid #333; /* Añade un borde para el aspecto cuadrado */
+    border-radius: 0; /* Elimina cualquier radio de borde existente */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para los enlaces al pasar el mouse por encima */
+.menu a:hover {
+    background-color: #4CAF50; /* Cambia el color de fondo al pasar el mouse por encima del enlace */
+    color: white; /* Cambia el color del texto al pasar el mouse por encima del enlace */
+}
+

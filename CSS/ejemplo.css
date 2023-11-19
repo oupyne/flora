@@ -1,0 +1,60 @@
+
+@font-face {
+  font-family: "RiverFont";
+  src: url("RiverFont.otf");
+}
+
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("just-another-hand.woff2");
+}
+
+/* p{
+	text-align:center;
+	color:blue;
+	font-weight:bold;
+
+	font-family: "Just Another Hand";
+	font-size: 3.5 rem;
+}*/
+
+header{
+	text-align: center;
+}
+		
+nav{
+	text-align: center;	
+}
+section{
+		text-align:center;
+}
+
+body{
+	margin:10px 10%;
+}
+
+#FraseFinal{
+    text-align:center;
+	color:blue;
+
+	font-family: "Just Another Hand", sans-serif;
+	font-size: 3.5rem;
+	letter-spacing: 1px;
+}
+
+h1{
+	clear: both;
+	padding: 0.2rem 0.5rem;
+	background-color: #FFF46D;
+	color: white;
+	font-size: 200%;
+}
+
+a:link{
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+
+
